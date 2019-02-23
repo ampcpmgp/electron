@@ -4,7 +4,7 @@
 
 #include "atom/browser/api/atom_api_web_contents.h"
 
-#include "content/browser/web_contents/web_contents_impl.h"
+#include "content/browser/web_contents/web_contents_impl.h"  // nogncheck
 
 #if BUILDFLAG(ENABLE_OSR)
 #include "atom/browser/osr/osr_render_widget_host_view.h"
